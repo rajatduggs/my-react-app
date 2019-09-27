@@ -1,0 +1,129 @@
+.download_btn {
+    display: block;
+    background: #fec608;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    color: #222;
+    font-size: 18px;
+    font-family: yellowtail,cursive;
+    position: relative;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+.main_title {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.main_title h2 {
+    font-size: 36px;
+    font-family: "bree serif",serif;
+    color: #222;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #222;
+    display: inline-block;
+    line-height: 58px;
+    padding: 0 23px;
+}
+
+.skill-item-item {
+    margin: 0;
+    padding: 0;
+}
+
+.progressbarSkill {
+
+    display: flex;
+    height: 10px;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .20rem;
+    margin: 0;
+    padding: 0;
+    width: 70%
+
+
+}
+
+.progress-bar {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    transition: width .6s ease;
+}
+
+.progressbarSkill .progress-bar {
+    background-color: #005696;
+   
+}
+
+body {
+
+    font-family: "Quicksand", sans-serif !important;
+
+
+}
+
+.skill-item-item-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left:10%
+  
+}
+
+h2 {
+
+    font-size: 2rem;
+}
+
+.skill-item-item-text span {
+
+    padding-left: 15%;
+}
+
+
+
+
+.education_item {
+    width: 50%;
+    max-width: 420px;
+    background: #fff;
+    margin-bottom: 30px;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+    border: 4px solid #2cbcad;
+
+}
+
+.education_item:nth-child(odd) {
+    float: left;
+}
+.education_item:nth-child(odd) {
+    float: right;
+}
+
+
+
+
+.social_icon li
+{
+display: inline;
+
+}

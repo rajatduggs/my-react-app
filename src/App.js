@@ -1,24 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import FooterClass from './components/FooterClass';
+import AboutMe from './components/AboutMe';
+import MySkill from './components/MySkill';
+import SkillDetail from './components/FrameWorks';
+import Education from './components/Education';
+import ConctactMe from './components/ContactMe';
+import { SocialIcon } from 'react-social-icons';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <AboutMe />
+      <div className="main_title"><h2>MY SKILL</h2></div>
+      <MySkill />
+      <Education />
+      <ConctactMe />
+      <FooterClass />
     </div>
   );
 }
